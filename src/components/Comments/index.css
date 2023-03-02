@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Roboto';
+}
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.comments-main-heading {
+  color: #1e293b;
+}
+.comments-image {
+  height: 200px;
+}
+.form-heading {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 400;
+}
+.name-input {
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+  color: #475569;
+  font-weight: 400;
+}
+.comment-input {
+  padding: 5px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #475569;
+  font-weight: 100;
+}
+.add-comment-button {
+  background-color: #0284c7;
+  color: #dee0e3;
+  border-width: 0px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.line-break {
+  color: #475569;
+  margin-bottom: 20px;
+  border-width: 1px;
+  width: 100%;
+}
+.comments-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.inside {
+  display: none;
+}
+.outside {
+  display: block;
+}
+.comments-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.count {
+  color: #dee0e3;
+  background-color: #0284c7;
+
+  padding: 10px;
+  height: 30px;
+}
+.comments-count {
+  color: #334155;
+}
+.initial-container {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .outside {
+    display: none;
+  }
+  .inside {
+    display: block;
+  }
+  .image-and-form-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .comments-image {
+    margin-left: 30px;
+    height: 250px;
+  }
+}
